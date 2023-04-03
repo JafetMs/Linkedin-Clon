@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;  /* 1 rem = 10 px */
+}
+body{
+    font-size:1.6rem;
+    background-color:rgb(243, 242, 239);
+}
+
+img{
+    width: ayti;
+
+}
+.header{
+    background-color:white;
+    border:yellow solid 2px;
+}
+.lin{
+    width: 35px;
+    height: 35px;
+}
+.container--header{
+    display: flex;
+    margin-left:395px;
+    margin-right:495px;
+    border:green solid 2px; 
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    border:red solid 2px;
+    gap:.8rem;
+}
+
+.navbar{
+    border:blue solid 2px;
+}
+.links{
+    display:flex;
+    gap:1.2rem;
+}
+
+.search{
+    position: absolute;
+
+}
+.input input{
+    width: 300px;
+    height: 35px;
+    
+    
+}
+
+/* Profile */
+.profile{
+    border:blueviolet solid 2px;
+    height: auto; 
+    margin-top:4rem;
+    margin-left:395px;
+    margin-right:495px;
+}
+.cover{
+    border:rgb(210, 53, 11) solid 2px;
+    height: 20rem;
+    position: relative;
+    background-image: url(../img/banner.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.picture{
+    border:green solid 2px;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px;
+    left:30px;
+}
+
+.content-profile{
+    border:yellowgreen solid 2px;
+}
+.profile__strong{
+    color:rgba(62, 107, 211, 0.862);
+}
+
+.buttons{
+    display:flex;
+    gap:.8rem;
+}
+.btm--blue,
+.btm--section,
+.btm--more{
+    font-weight: 800;
+    padding:.45rem 1rem;
+    display:block;
+}
+.btm--blue{
+    
+    background-color: rgba(62, 107, 211, 0.862);
+    color:white;
+    
+    border-radius:1rem;
+    border:none;
+    
+
+}
+
+.btm--section{
+    background-color: white;
+    color:rgba(62, 107, 211, 0.862);  
+    border-radius:1rem;
+    border:rgba(62, 107, 211, 0.862) solid;
+}
+.btm--more{    
+    background-color: transparent;
+    color:rgba(60, 61, 61, 0.862);
+    border-radius:1rem;
+    border:rgba(60, 61, 61, 0.862) solid;
+
+}
