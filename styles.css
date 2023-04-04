@@ -39,12 +39,12 @@ img{
 }
 .container--header{
     display: flex;
-    width: 110rem;
-    margin-right:665px;
+    width: 60%;
+    
     border:green solid 5px; 
     justify-content: space-between;
     position:relative;
-    left:15rem;
+    left:10rem;
     gap:7rem;
 }
 .container > *{
@@ -81,12 +81,11 @@ img{
     
     height: auto; 
     margin-top:4rem;
-    
-    width: auto;
-    margin-right:655px;   
+
+    width: 60%;
     position:relative;
-    left:15rem;
-    border-radius: 15px;
+    left:10rem;
+    border-radius: 10px;
    
     
 }
