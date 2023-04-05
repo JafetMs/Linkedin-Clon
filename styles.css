@@ -41,7 +41,7 @@ img{
 }
 .header{
     background-color:white;
-    border:yellow solid 2px;
+    /* border:yellow solid 2px; */
 }
 .lin2{
     width: 25px;
@@ -55,8 +55,7 @@ img{
 .container--header{
     display: flex;
     width: 60%;
-    
-    border:green solid 5px; 
+    /* border:green solid 5px;  */
     justify-content: space-between;
     position:relative;
     left:10rem;
@@ -69,12 +68,12 @@ img{
 }
 .left{
     display: flex;
-    border:red solid 2px;
+    /* border:red solid 2px; */
     gap:.8rem;
 }
 
 .navbar{
-    border:blue solid 2px;
+    /* border:blue solid 2px; */
     
 }
 .links{
@@ -92,6 +91,7 @@ img{
     height: 35px;
     background-color: #EFF3F8;
     padding-left: 35px;
+    border: none;
     
 }
 
@@ -99,7 +99,7 @@ img{
 
 .profile{
     
-    height: auto; 
+    max-width: 100%;
     margin-top:4rem;
     width: 80%;
     position:relative;
@@ -107,6 +107,7 @@ img{
     border-radius: 10px;
     padding-right: 1rem;
     margin-right: 1px;
+    
     
 }
 .cover{
@@ -213,6 +214,16 @@ img{
     background-color: transparent;
     color:gray;
     border:gray solid 2px;
+    align-content: center;
+    align-items: center;
+}
+
+.btm__content{
+    
+}
+.sidebar__1{
+    align-items: center;
+    
 }
 
 /* Analytics styles */
@@ -243,7 +254,8 @@ img{
     
 }
 .final{
-    margin-top: 3px;
+    margin-top: 20px;
+    align-content: center;
     text-align: center;
 }
 
@@ -287,4 +299,15 @@ li a{
 
 .square{
     border-radius: none;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 10rem;
+}
+
+.radius3 > *{
+    border-radius:3rem;
+    
 }
