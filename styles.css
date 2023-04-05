@@ -72,10 +72,7 @@ img{
     gap:.8rem;
 }
 
-.navbar{
-    /* border:blue solid 2px; */
-    
-}
+
 .links{
     display:flex;
     gap:3rem;
@@ -149,9 +146,7 @@ img{
     border-bottom: 1px solid gray;
 
 }
-.companie{
-    
-}
+
 .sub{
     display: flex;
     gap:2rem;
@@ -218,9 +213,7 @@ img{
     align-items: center;
 }
 
-.btm__content{
-    
-}
+
 .sidebar__1{
     align-items: center;
     
