@@ -28,10 +28,25 @@ img{
     width: 100;
 
 }
+.nav_elements {
+    display: flex;
+    margin-left: 2rem;
+}
 
+.ji {
+    justify-content: center;
+    padding-left:20px ;
+    font-size: 10px;
+    align-items: center center;
+}
 .header{
     background-color:white;
     border:yellow solid 2px;
+}
+.lin2{
+    width: 25px;
+    height: 25px;
+    justify-items: center;
 }
 .lin{
     width: 35px;
@@ -60,19 +75,24 @@ img{
 
 .navbar{
     border:blue solid 2px;
+    
 }
 .links{
     display:flex;
-    gap:1.2rem;
+    gap:3rem;
+    justify-content: center;
 }
 
 .search{
     position: absolute;
-
+    
 }
 .input input{
     width: 300px;
     height: 35px;
+    background-color: #EFF3F8;
+    padding-left: 35px;
+    
 }
 
 /* Profile */
@@ -87,7 +107,6 @@ img{
     border-radius: 10px;
     padding-right: 1rem;
     margin-right: 1px;
-   
     
 }
 .cover{
@@ -123,11 +142,27 @@ img{
     margin-bottom: 7px;
     line-height: 25px;
 }
+.companies{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 1px solid gray;
 
-
+}
+.companie{
+    
+}
+.sub{
+    display: flex;
+    gap:2rem;
+    padding-bottom: 1rem;
+    line-height: 3rem;
+    border-bottom: 1px solid gray;
+    
+}
 .imge{
     display:flex;
     align-items: center;
+    align-content: center;
     gap:1rem;
     margin:2rem;
    
@@ -136,6 +171,11 @@ img{
     width: 48px;
     height: 48px;
     border-radius: 50%;
+}
+.imge_square img{
+    width: 48px;
+    height: 48px;
+    border-radius: 0%;
 }
 .profile__strong{
     color:rgba(62, 107, 211, 0.862);
@@ -159,7 +199,7 @@ img{
 }
 .btm--blue{
     background-color: rgba(62, 107, 211, 0.862);
-    color:black;
+    color:white;
     border:none;
     
 }
@@ -194,11 +234,13 @@ img{
 .xd{
     display: flex;
     align-content: center;
+    align-items: center;
     gap:2rem;
     padding-bottom: 12px;
     margin-top: 20px;
     margin-bottom: 5px;
     border-bottom: 1px solid gray;
+    
 }
 .final{
     margin-top: 3px;
@@ -226,6 +268,8 @@ img{
     display:flex;
     align-items: center;
     gap:1.2rem;
+    padding: 0;
+    padding-right: 2rem;
     
 }
 
@@ -233,3 +277,14 @@ img{
     line-height: 22px;
 }
 
+
+li a{
+    font-size: 12px;
+}
+.mg-top{
+    margin-top: 1rem;
+}
+
+.square{
+    border-radius: none;
+}
